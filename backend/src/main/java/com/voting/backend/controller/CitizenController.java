@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/citizen")
-@CrossOrigin
 public class CitizenController {
 
     private final CitizenService citizenService;

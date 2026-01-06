@@ -9,7 +9,6 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/vao")
-@CrossOrigin
 public class VaoController {
 
     private final SirRepository sirRepo;

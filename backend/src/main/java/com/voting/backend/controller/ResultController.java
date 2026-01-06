@@ -7,7 +7,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/results")
-@CrossOrigin
 public class ResultController {
 
     private final VoteRepository voteRepo;

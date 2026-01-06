@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/vote")
-@CrossOrigin
 public class VoteController {
 
     private final VoteService voteService;
